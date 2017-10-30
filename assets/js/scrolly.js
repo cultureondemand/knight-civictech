@@ -490,16 +490,7 @@ var digest = document.getElementById("digest");
     digest.setAttribute("style", "visibility:hidden; ");
 
 
-
-
-
-var stairs = document.getElementById("stairs");
-    stairs.setAttribute("style", "visibility:hidden; ");
-
-
-
-
-
+ 
  
 ///////////
 ///////////
@@ -689,7 +680,7 @@ d3.select("#container-A")
 d3.select("#container-Al")
   .style("opacity","1")
   .style("visibility","visible")
- .style("bottom","-3vh")
+ .style("bottom","50px")
   .style("position","fixed")
  ;
  
@@ -699,7 +690,7 @@ d3.select("#container-Al")
 d3.select("#container-Ar")
    .style("visibility","visible")
    .style("opacity","1")
-.style("bottom","-4vh")
+.style("bottom","40px")
  .style("position","fixed")
 ;
  digtrigger='';
@@ -767,12 +758,7 @@ var digest = document.getElementById("digest");
     digest.setAttribute("style", "visibility:visible; ");
 
 
-
-
-var stairs = document.getElementById("stairs");
-    stairs.setAttribute("style", "visibility:visible; ");
-
-
+ 
 
 
 var digesthead = document.getElementById("digesthead");
