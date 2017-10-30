@@ -23,6 +23,38 @@ font-weight: 400;
 
 
 
+
+
+@font-face {
+    font-family: 'tabletgothic-bold-webfont';
+    src: url('tabletgothic-bold-webfont.woff') format('woff'),
+          url('tabletgothic-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+@font-face {
+    font-family: 'tabletgothic-webfont';
+    src: url('tabletgothic-webfont.woff') format('woff'),
+          url('tabletgothic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+
 .bgbg {
 
   position: fixed;
@@ -85,7 +117,7 @@ div.tooltip {
   background: rgba(0, 0, 0, 0.6);
   color: #FFFFFF;
   font-size: 12px;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
 font-weight: 700;
   padding: 4px 6px;
@@ -107,7 +139,7 @@ font-weight: 700;
 }
 
 #output {
-font-family: tablet-gothic, sans-serif;
+font-family: tabletgothic-webfont, sans-serif;
 font-style: normal;
 font-weight: 400;
   font-size: .8em;
@@ -166,7 +198,7 @@ section > p:first-child:first-letter {
   display: inline;
   float: left;
   font-size: 4.4em;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
    font-weight: 700;
   line-height: 0.8em;
@@ -266,7 +298,7 @@ video#bgvid02 {
   font-size: .8em;
   line-height: 1.4em;
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
   }
@@ -392,9 +424,9 @@ font-weight: 400;
   display: inline;
   float: left;
   font-size: 5.5em;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
-font-weight: 700;
+/*font-weight: 700; */
   line-height: 0.7em;
   margin: 0.03em 0.04em 0 0;
   text-transform: uppercase;
@@ -521,7 +553,7 @@ line {
 
 #graphic {
   padding-top: 0;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
   height: auto;
@@ -554,7 +586,7 @@ polyline {
   border-top: 0;
   text-transform: uppercase;
   margin: 0;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
 text-align: center;
@@ -577,7 +609,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1); */
   border-top: 0;
   text-transform: uppercase;
   margin: 0;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
   background-color: #212121;
@@ -594,7 +626,7 @@ transition-timing-function:cubic-bezier(.4,0,.2,1);
 .bodycopy {
 
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 19px;
@@ -619,12 +651,7 @@ line-height: 35px;
 
   text-transform: uppercase;
 
-  font-family: "HelveticaNeueLight",
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "HelveticaNeue",
-    "Helvetica Neue",
-    'TeXGyreHerosRegular',
+  font-family: "tabletgothic-webfont",
     "Helvetica",
     "Tahoma",
     "Geneva",
@@ -730,7 +757,7 @@ line-height: .6em;
 @media only screen and (max-width: 400px) {
   .step {
     margin-bottom: 366px;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 19px;
@@ -748,8 +775,8 @@ font-weight: 400;
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   .step {
-    margin-bottom: 86vh;
-font-family: tablet-gothic, sans-serif;
+    margin-bottom: 56vh;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 19px;
@@ -768,7 +795,7 @@ font-weight: 400;
 @media only screen and (min-width: 961px) {
   .step {
     margin-bottom: 86vh;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 19px;
@@ -790,7 +817,7 @@ page-break-before: always;
      visibility: visible !important;
 
     margin-bottom: 24px;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 19px;
@@ -862,7 +889,7 @@ font-weight: 400;
 
   .opening {
     margin-bottom: 66vh;
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-webfont', sans-serif;
 font-style: normal;
 font-weight: 400;
     font-size: 24px;
@@ -1233,7 +1260,7 @@ position: fixed;
   line-height: 1em;
   left: 0;
    text-transform: uppercase;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  background: none !important;
@@ -1264,7 +1291,7 @@ position: fixed;
    text-transform: uppercase;
   background: none !important;
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
    height:100%;
@@ -1296,7 +1323,7 @@ position: fixed;
    height:100%;
  background: none !important;
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -1334,7 +1361,7 @@ background-color: #aeea00;
 
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-weight: 700;
     font-size: 60px;
     padding: 28px;
@@ -1363,7 +1390,7 @@ font-weight: 700;
 max-width: 354px; 
 
    text-transform: uppercase;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-weight: 700;
     font-size: 18px;
     margin-top: 111px;
@@ -1394,7 +1421,7 @@ font-weight: 700;
 background-color: #aeea00;
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
   width: auto;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-weight: 700;
     font-size: 28px;
     margin-top: 6em;
@@ -1425,7 +1452,7 @@ background-color: #aeea00;
 
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-weight: 700;
     font-size: 34px;
     margin-top: 5em;
@@ -1460,7 +1487,7 @@ background-color: #aeea00;
 
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-weight: 700;
     font-size: 36px;
     margin-top: 2vh;
@@ -1527,17 +1554,16 @@ line-height: 1.3em;
 position:absolute;
 padding-top: 12px;
 padding-bottom: 12px;
-padding-right: 12px;
- padding-left: 12px;
+padding-right: 24px;
+ padding-left: 52px;
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 color: #231f20;
 background-color: #aeea00;
 
 /* background-color: #cfcfcf !important;   */
 
-   bottom:-29em !important;
-   height:26em;
-  /* background-image: url('_bg_bricks.png'); */
+   top:374px !important;
+   /* background-image: url('_bg_bricks.png'); */
 }
 
 
@@ -1556,19 +1582,18 @@ background-color: #aeea00;
     z-index: 99999999999999999999;
    margin:0;
 position:absolute;
-padding-top: 24px;
+padding-top: 12px;
 padding-bottom: 24px;
-padding-right: 24px;
- padding-left: 69px;
+padding-right: 36px;
+ padding-left: 96px;
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 color: #231f20;
 background-color: #aeea00;
 
 /* background-color: #cfcfcf !important;   */
 
-   bottom:-16em !important;
-   height:18em;
-  /* background-image: url('_bg_bricks.png'); */
+   bottom:-160px !important;
+   /* background-image: url('_bg_bricks.png'); */
 }
 
 
@@ -1590,19 +1615,18 @@ background-color: #aeea00;
     z-index: 99999999999999999999;
    margin:0;
 position:absolute;
-padding-top: 24px;
+padding-top: 12px;
 padding-bottom: 24px;
-padding-right: 24px;
- padding-left: 69px;
+padding-right: 36px;
+ padding-left: 96px;
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 color: #231f20;
 background-color: #aeea00;
 
 /* background-color: #cfcfcf !important;   */
 
-   bottom:-16em !important;
-   height:16em;
-  /* background-image: url('_bg_bricks.png'); */
+   bottom:-9em !important;
+   /* background-image: url('_bg_bricks.png'); */
 }
 
 
@@ -1654,7 +1678,7 @@ background-color: #aeea00;
 
        box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-webfont', sans-serif;
 font-weight: 400;
     font-size: 14px;
     margin-top: 2vh;
@@ -1782,7 +1806,7 @@ background-color: #aeea00;
   display: block; 
      z-index: 99999999999;
    margin:0;
- padding-top: 12px;
+ padding-top: 6px;
 padding-bottom: 6px;
 padding-left: 96px;
 line-height: 1.3px;
@@ -1852,7 +1876,7 @@ width: 100%;
   width: 100%;
   left: 0;
    text-transform: uppercase;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
    height:100%;
@@ -1881,7 +1905,7 @@ width: 100%;
   left: 0;
    text-transform: uppercase;
  
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
    height:100%;
@@ -1910,7 +1934,7 @@ width: 100%;
    text-transform: uppercase;
    height:100%;
 
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -1936,7 +1960,7 @@ width: 100%;
   z-index: -10;
   width: 100%;
     text-transform: uppercase;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -1965,7 +1989,7 @@ width: 100%;
   width: 100%;
   left: 0;
    text-transform: uppercase;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -1993,7 +2017,7 @@ width: 100%;
   left: 0;
    text-transform: uppercase;
  
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
    height:100%;
@@ -2021,7 +2045,7 @@ width: 100%;
   left: 0;
    text-transform: uppercase;
  
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -2169,7 +2193,7 @@ top: 0;
   color: #212121;
   font-size: 5vw;
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
 font-weight: 700;
 /* background-color: #aeea00; */
@@ -2206,7 +2230,7 @@ top: 0;
   color: #212121;
   font-size: 5vw;
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
 font-weight: 700;
 /* background-color: #aeea00; */
@@ -2247,7 +2271,7 @@ top: 0;
   font-size: 5vw;
 width: 100%;
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
 font-weight: 700;
 /* background-color: #aeea00; */
@@ -2265,9 +2289,7 @@ background-color: #aeea00;
      line-height: 1em;
     position: relative;
      z-index: 9999999999;
- 
-padding-bottom: 18px;
-
+  
 
 }
 
@@ -2287,7 +2309,7 @@ top: 0;
   font-size: 5vw;
 width: 100%;
 
-font-family: tablet-gothic, sans-serif;
+font-family: 'tabletgothic-bold-webfont', sans-serif;
 font-style: normal;
 font-weight: 700;
 /* background-color: #aeea00; */
@@ -2330,7 +2352,7 @@ background-color: #aeea00;
 .stepB {
   padding-top: 12em;
   margin-bottom: 8em;
-font-family: 'Zilla Slab', serif;
+font-family: 'tabletgothic-bold-webfont', serif;
   font-size: 1.2em;
   line-height: 1.4em;
   color: #fff;
@@ -2349,7 +2371,7 @@ letter-spacing: 0;
   font-size: 36px;
 display: none;
 position: fixed;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
 color:#212121;
   margin-bottom: .1em;
@@ -2385,15 +2407,7 @@ top:96px;
   font-size: 16px;
  padding-top: 0;
 
-  font-family: "HelveticaNeueLight",
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "HelveticaNeue",
-    "Helvetica Neue",
-    'TeXGyreHerosRegular',
-    "Helvetica",
-    "Tahoma",
-    "Geneva",
+  font-family: "tabletgothic-bold-webfont",
     "Arial",
     sans-serif;
 
@@ -2428,15 +2442,7 @@ top:96px;
   font-size: 28px;
  padding-top: 12px;
 
-  font-family: "HelveticaNeueLight",
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "HelveticaNeue",
-    "Helvetica Neue",
-    'TeXGyreHerosRegular',
-    "Helvetica",
-    "Tahoma",
-    "Geneva",
+  font-family: "tabletgothic-bold-webfont",
     "Arial",
     sans-serif;
 
@@ -2470,16 +2476,7 @@ top:96px;
   font-size: 28px;
  padding-top: 12px;
 
-  font-family: "HelveticaNeueLight",
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "HelveticaNeue",
-    "Helvetica Neue",
-    'TeXGyreHerosRegular',
-    "Helvetica",
-    "Tahoma",
-    "Geneva",
-    "Arial",
+  font-family: "tabletgothic-bold-webfont",
     sans-serif;
 
 
@@ -2525,15 +2522,7 @@ background-color: #cfcfcf;
   font-size: 28px;
  padding-top: 12px;
 
-  font-family: "HelveticaNeueLight",
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
-    "HelveticaNeue",
-    "Helvetica Neue",
-    'TeXGyreHerosRegular',
-    "Helvetica",
-    "Tahoma",
-    "Geneva",
+  font-family: "tabletgothic-bold-webfont",
     "Arial",
     sans-serif;
 
@@ -2573,7 +2562,7 @@ ul {
 
 
 h6  {
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
 line-height: 1.3em;
 font-size: 27px;
@@ -2589,7 +2578,7 @@ margin-top: .9em !important;
 
 
 h4  {
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
 line-height: 32px;
 font-size: 23px;
@@ -2605,7 +2594,7 @@ h5  {
 line-height: 27px;
 font-size: 18px;
 
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
  border: none !important;
 margin-bottom: .1em !important;
@@ -2617,7 +2606,7 @@ h3 {
 
 line-height: 39px;
 font-size: 28px;
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
    padding:1em;
 border: none !important;
@@ -2630,7 +2619,7 @@ h2 {
 
 line-height: 46px;
 font-size: 33px;
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
  border: none !important;
 margin-bottom: .1em !important;
@@ -2641,7 +2630,7 @@ h1 {
 
 line-height: 72px;
 font-size: 40px;
-  font-family: tablet-gothic, sans-serif !important;
+  font-family: 'tabletgothic-bold-webfont', sans-serif !important;
   font-weight: 700 !important;
  border: none !important;
 margin-bottom: .1em !important;
@@ -2662,7 +2651,7 @@ margin-bottom: .1em !important;
 }
 
 #sections .titleB {
-font-family: 'Zilla Slab', serif;
+font-family: 'tabletgothic-bold-webfont', serif;
   font-weight: 700;
 
   font-size: 3.4em;
@@ -2690,7 +2679,7 @@ font-family: 'Zilla Slab', serif;
 }
 
 #vis .title {
-font-family: 'Zilla Slab', serif;
+font-family: 'tabletgothic-bold-webfont', serif;
   font-weight: 700;
   top: 6em;
   font-size: 14em;
@@ -2701,7 +2690,7 @@ font-family: 'Zilla Slab', serif;
 }
 
 #vis .sub-title {
-font-family: 'Zilla Slab', serif;
+font-family: 'tabletgothic-bold-webfont', serif;
   font-weight: 700;
   font-size: 8em;
   color: #fff;
@@ -2775,7 +2764,7 @@ font-family: 'Zilla Slab', serif;
 }
 
 .node text {
-  font: .8em "HelveticaNeue-Light", sans-serif;
+  font: .8em "tabletgothic-webfont", sans-serif;
   pointer-events: none;
   text-anchor: middle;
 }
@@ -2793,7 +2782,7 @@ line.linkX {
 }
 
 .bar-text {
-  font: 6em "HelveticaNeue-Light", sans-serif;
+  font: 6em "tabletgothic-webfont", sans-serif;
   font-weight: 600;
   pointer-events: none;
 }
@@ -3040,7 +3029,7 @@ position: fixed !important;
    text-transform: uppercase;
    height:100%;
 background-color: #cfcfcf;
-  font-family: tablet-gothic, sans-serif;
+  font-family: 'tabletgothic-bold-webfont', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
  
@@ -3615,7 +3604,7 @@ font-weight: 500 !important;
 
 .mdc-grid-tile__title {
 
-    font-family: tablet-gothic, sans-serif !important;
+    font-family: 'tabletgothic-bold-webfont', sans-serif !important;
 font-weight: 700 !important;
     font-size: 10px !important;
     color: #fff !important;
@@ -3743,6 +3732,102 @@ display: none !important;
 
 
  
+
+
+
+
+
+
+
+
+
+
+@media print {
+
+.quoteinset {
+
+ display:block;
+ width:100%;
+ padding:3px;
+  font-size:80%;
+ background-color:#aeea00;
+ 
+}
+}
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+
+.quoteinset {
+
+ display:block;
+ width:100%;
+ padding:15px;
+ float:right;
+ font-size:80%;
+ background-color:#aeea00;
+  margin-left:24px;
+ margin-bottom:12px; 
+
+}
+
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+
+
+.quoteinset {
+
+ display:block;
+ width:100%;
+ padding:33px;
+ float:right;
+ font-size:80%;
+ background-color:#aeea00;
+  margin-left:24px;
+ margin-bottom:12px; 
+
+}
+
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+
+.quoteinset {
+
+ display:block;
+ width:36%;
+ padding:33px;
+ float:right;
+ font-size:80%;
+ background-color:#aeea00;
+ min-width:310px;
+ margin-left:24px;
+ margin-bottom:12px; 
+
+}
+
+
+}
+
+
+ 
+
+
 
 
 
@@ -3891,5 +3976,18 @@ color: #515151;
 .cls-1,.cls-4,.cls-5,.cls-7{fill:none;}.cls-2{clip-path:url(#clip-path);}.cls-3{fill:#231f20;}.cls-4,.cls-5{stroke:#231f20;}.cls-4,.cls-5,.cls-7{stroke-miterlimit:10;}.cls-4{stroke-width:36px;}.cls-5{stroke-width:5px;}.cls-6,.cls-8{fill:#fff;}.cls-7{stroke:#fff;stroke-width:9px;}.cls-8{fill-rule:evenodd;}.cls-9{fill:#221f1f;}
 
 
-.
+}
+
+
+
+
+
+
+.toolbar__title{
+
+font-family: 'tabletgothic-bold-webfont', serif;
+  font-weight: 700;
+
+
+}
 
