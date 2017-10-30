@@ -62,111 +62,6 @@ var slideData = [
 
 
 
-
-
-
- 
-           <div class="mdc-card demo-card demo-card--smallD">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Enterprise Software</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-4');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallE">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Consulting</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-5');">Read more ></button>
-            </section>
-          </div>
-
-
-
-
-
-           <div class="mdc-card demo-card demo-card--smallEa">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Government procurement and sales</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-6');">Read more ></button>
-            </section>
-          </div>
-
-
- 
-           <div class="mdc-card demo-card demo-card--smallF">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Corporate Partnerships</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-7');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallG">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Advertising</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-8');">Read more ></button>
-            </section>
-          </div>
-
-
-
-
-
- 
-           <div class="mdc-card demo-card demo-card--smallH">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Data Monetization</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-9');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallI">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Transaction Fees</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-10');">Read more ></button>
-            </section>
-          </div>
-
-
-
-
-
- 
-           <div class="mdc-card demo-card demo-card--smallJ">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Small Dollar Donors</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-11');">Read more ></button>
-             </section>
-          </div>
- 
- 
  
  
 
@@ -183,72 +78,7 @@ var slideData = [
 
 
 
-
-
  
-           <div class="mdc-card demo-card demo-card--smallL">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Open Data & Transparency</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-13');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallM">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Voting & Elections</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-14');">Read more ></button>
-            </section>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-           <div class="mdc-card demo-card demo-card--smallN">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Citizen <-> Resident Interaction</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-15');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallO">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Citizen Mobilization</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-16');">Read more ></button>
-            </section>
-          </div>
-
-
-
 
 
  
@@ -271,37 +101,7 @@ var slideData = [
 
 
 
-
-
-
-
-
-
  
-           <div class="mdc-card demo-card demo-card--smallQ">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Philanthropic capital</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-18');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
- 
-
-           <div class="mdc-card demo-card demo-card--smallR">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Venture Capital</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-19');">Read more ></button>
-            </section>
-          </div>
-
-
-
 
 
  
@@ -316,46 +116,7 @@ var slideData = [
  
  
  
-
-
-
  
-           <div class="mdc-card demo-card demo-card--smallT">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Competencies</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-21');">Read more ></button>
-             </section>
-          </div>
- 
- 
- 
-
-
-
-
-           <div class="mdc-card demo-card demo-card--smallU">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Capital</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-22');">Read more ></button>
-             </section>
-          </div>
-
-
-
-           <div class="mdc-card demo-card demo-card--smallV">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Collaboration</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-23');">Read more ></button>
-             </section>
-          </div>
-
-
 
            <div class="mdc-card demo-card demo-card--smallW">
             <section class="mdc-card__media">
@@ -379,17 +140,7 @@ var slideData = [
           </div>
 
 
-
-
-           <div class="mdc-card demo-card demo-card--smallY">
-            <section class="mdc-card__media">
-              <h1 class="mdc-card__title mdc-card__title--large">Conclusion</h1>
-            </section>
-            <section class="mdc-card__actions">
-              <button class="mdc-button mdc-button--compact mdc-card__action" onclick="jumpToAnchor('step-24');">Read more ></button>
-             </section>
-          </div>
-
+ 
 
 
  
